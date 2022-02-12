@@ -28,7 +28,7 @@ Configuration tested on:
 Python 3.9.8 installation:
 
 	cd .prep
-	/bin/bash ./install_python3_9.sh
+	/bin/bash install_python3_9.sh
 
 Poetry installation:
 
