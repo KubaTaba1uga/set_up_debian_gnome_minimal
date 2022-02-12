@@ -15,5 +15,5 @@ if [ $PYTHON_VERSION -lt 9 ]; then
         /bin/bash $SCRIPT_DIR/.prep/install_python3_9.sh
 fi
 
-# Install python3
+# Install app dependencies
 /bin/bash $SCRIPT_DIR/.prep/install_dependencies.sh
