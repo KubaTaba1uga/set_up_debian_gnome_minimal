@@ -1,6 +1,24 @@
 [![PyTest](https://github.com/KubaTaba1uga/python_script_executor/actions/workflows/pytest.yml/badge.svg?branch=master)](https://github.com/KubaTaba1uga/python_script_executor/actions/workflows/pytest.yml) 
 [![codecov](https://codecov.io/gh/KubaTaba1uga/python_script_executor/branch/master/graph/badge.svg?token=BHLC73ZGK0)](https://codecov.io/gh/KubaTaba1uga/python_script_executor)
 
+
+# Configuration description
+
+prepare_to_start.sh set up sudo, python3, pip and poetry.
+
+List of packages that app install and configure:
+
+1. xorg
+2. gdm3
+3. gnome3
+4. terminator (shell terminal)
+
+
+Configuration tested on:
+
+	- Debian 9
+	- Debian 11
+
 # Requirements
 
 1. Python >=3.9
