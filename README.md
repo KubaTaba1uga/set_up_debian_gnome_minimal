@@ -17,6 +17,7 @@ List of packages that app install and configure:
 Configuration tested on:
 
 	- Debian 9
+	- Debian 10
 	- Debian 11
 
 # Requirements
