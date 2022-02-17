@@ -11,6 +11,6 @@ gnome-tweak-tool        \
 gnome-icon-theme        \
 gnome-backgrounds      \
 gnome-control-center     \
-gnome-themes-standard \ 
+gnome-themes-standard \
 pulseaudio \
 terminator nautilus -y --fix-missing
