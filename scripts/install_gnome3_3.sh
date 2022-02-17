@@ -14,3 +14,5 @@ gnome-control-center     \
 gnome-themes-standard \
 pulseaudio \
 terminator nautilus -y --fix-missing --no-install-recommends
+
+sudo apt-mark hold gnome-session
