@@ -8,3 +8,4 @@ sudo  $non_interactive apt-get install -y --no-install-recommends \
 	xfonts-base xinit \
 	xserver-xorg-core
 
+sudo apt-mark hold xserver-xorg xfonts-base xinit xserver-xorg-core
