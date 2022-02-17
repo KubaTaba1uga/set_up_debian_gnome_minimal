@@ -13,4 +13,4 @@ gnome-backgrounds      \
 gnome-control-center     \
 gnome-themes-standard \
 pulseaudio \
-terminator nautilus -y --fix-missing
+terminator nautilus -y --fix-missing --no-install-recommends
