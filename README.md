@@ -8,7 +8,7 @@ List of packages that app install and configure:
 
 1. xorg
 2. gdm3
-3. gnome3.38
+3. gnome3
 4. terminator (shell terminal)
 
 
