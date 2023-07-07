@@ -6,17 +6,16 @@
 
 List of packages that app install and configure:
 
-1. xorg
-2. gdm3
-3. gnome3
-4. terminator (shell terminal)
+1. gnome-core
+2. gnome-tweaks
+3. gnome-shell-extension-prefs
+4. gnome-shell-extensions
 
 
 Configuration tested on:
 
-	- Debian 9
-	- Debian 10
-	- Debian 11
+	- Debian 12
+
 
 # Requirements
 
@@ -26,7 +25,7 @@ Configuration tested on:
 
 Requirements installation:
 
-	/bin/bash prepare_to_start.sh
+	bash prepare_to_start.sh
 
 
 # App description 
