@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sudo apt-get --allow-releaseinfo-change update
+sudo apt-get update
