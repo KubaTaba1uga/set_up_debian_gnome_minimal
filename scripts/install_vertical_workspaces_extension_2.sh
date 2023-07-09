@@ -1,12 +1,13 @@
 #!/bin/bash
 
+EXTENSION_UUID=vertical-workspaces@G-dH.github.com 
+EXTENSION_FILE=scripts/.vertical-workspaces-extension.zip
+
 sudo apt-get install --no-install-recommends -y gnome-shell-extensions
 
-wget https://github.com/G-dH/vertical-workspaces/releases/download/v28/vertical-workspaces@G-dH.github.com.zip
+gnome-extensions install --force $EXTENSION_FILE
 
-gnome-extensions install vertical-workspaces@G-dH.github.com.zip
+gnome-extensions enable $EXTENSION_UUID
 
-gnome-extensions enable vertical-workspaces@G-dH.github.com
-
-rm vertical-workspaces@G-dH.github.com.zip
+rm $EXTENSION_FILE
 

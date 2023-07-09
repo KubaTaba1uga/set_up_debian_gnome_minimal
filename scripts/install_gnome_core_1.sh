@@ -1,6 +1,6 @@
 #!/bin/bash
 
-GNOME_VER=1:43*
+GNOME_VER=1:43+1
 
 sudo apt-get install --no-install-recommends -y gnome-core=$GNOME_VER 
 
